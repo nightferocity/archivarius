@@ -1,0 +1,30 @@
+<!--Пример запроса-->
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:reg="http://www.hostco.ru/reguser" xmlns:typ="http://www.hostco.ru/reguser/types">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <reg:getUserRequest typ:token="D468E929-A94E-4F16-A7D2-DB414EC53071">
+         <typ:SNILS>28752377117</typ:SNILS>
+      </reg:getUserRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+<!--Пример ответа-->
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:getUserResponse xmlns:ns2="http://www.hostco.ru/reguser" xmlns:ns1="http://www.hostco.ru/reguser/types">
+         <ns1:SNILS>28752377117</ns1:SNILS>
+         <ns1:Login>
+            <ns1:SNILS>28752377117</ns1:SNILS>
+            <ns1:Lastname>Тест</ns1:Lastname>
+            <ns1:Firstname>Тест</ns1:Firstname>
+            <ns1:Middlename>Иванович</ns1:Middlename>
+            <ns1:BirthDate>1982-06-29</ns1:BirthDate>
+            <ns1:Phone>9634567654</ns1:Phone>
+            <ns1:gender>1</ns1:gender>
+            <ns1:PolicyNumber>1151999010463162</ns1:PolicyNumber>
+         </ns1:Login>
+         <ns1:mcode>998</ns1:mcode>
+      </ns2:getUserResponse>
+   </soap:Body>
+</soap:Envelope>
