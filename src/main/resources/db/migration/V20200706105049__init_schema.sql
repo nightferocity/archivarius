@@ -19,7 +19,7 @@ COMMENT ON COLUMN archivist.ref_mo."oid" IS 'фед.ОИД';
 COMMENT ON COLUMN archivist.ref_mo."version" IS 'Версия';
 COMMENT ON COLUMN archivist.ref_mo.namefull IS 'Полное наименование МО';
 COMMENT ON COLUMN archivist.ref_mo.nameshort IS 'Короткое наименование МО';
-COMMENT ON COLUMN archivist.ref_mo.guid IS 'Гуид(что очевидно)';
+COMMENT ON COLUMN archivist.ref_mo.guid IS 'Гуид';
 COMMENT ON COLUMN archivist.ref_mo.is_shown IS 'Признак "Показывать в приложении"';
 
 -- Permissions

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Archivarius
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: root1234
+    url: jdbc:postgresql://localhost:5432/archivarius
+    username: archi
+

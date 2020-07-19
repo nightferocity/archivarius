@@ -1,4 +1,4 @@
-package models;
+package dto;
 
 @lombok.Data
 public class Data {
