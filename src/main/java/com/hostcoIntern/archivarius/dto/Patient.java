@@ -1,4 +1,4 @@
-package dto;
+package com.hostcoIntern.archivarius.dto;
 
 import lombok.Data;
 

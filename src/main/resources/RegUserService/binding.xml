@@ -7,10 +7,10 @@
   jaxb:extensionBindingPrefixes="xjc annox" version="2.1"
   xmlns:annox="http://annox.dev.java.net">
   <jaxb:globalBindings>
-    <xjc:javaType adapter="ru.hostco.dvs.mpi.utility.date.AdapterXmlDate"
+    <xjc:javaType adapter="ru.hostco.dvs.mpi.com.hostcoIntern.archivarius.utility.date.AdapterXmlDate"
       name="java.time.LocalDate"
       xmlType="xs:date"/>
-    <xjc:javaType adapter="ru.hostco.dvs.mpi.utility.date.AdapterXmlDateTime"
+    <xjc:javaType adapter="ru.hostco.dvs.mpi.com.hostcoIntern.archivarius.utility.date.AdapterXmlDateTime"
       name="java.time.LocalDateTime"
       xmlType="xs:dateTime"/>
     <xjc:simple/>

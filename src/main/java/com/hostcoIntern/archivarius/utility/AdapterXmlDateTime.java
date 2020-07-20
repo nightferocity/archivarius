@@ -1,4 +1,4 @@
-package utility;
+package com.hostcoIntern.archivarius.utility;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

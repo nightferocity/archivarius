@@ -1,12 +1,10 @@
-package dto;
+package com.hostcoIntern.archivarius.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-
 @Data
-
+@Builder
 public class MedicalOrganization {
 
     String shortName;

@@ -1,10 +1,9 @@
-package service;
+package com.hostcoIntern.archivarius.service;
 
-import models.UserData;
+import com.hostcoIntern.archivarius.models.UserData;
+import com.hostcoIntern.archivarius.repositories.UserDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import repositories.UserDataRepository;
 
 @Service
 public class DataService {
