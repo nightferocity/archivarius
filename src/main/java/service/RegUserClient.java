@@ -21,4 +21,5 @@ public class RegUserClient extends WebServiceGatewaySupport {
                 new SoapActionCallback("https://cas-test.hostco.ru/RegUserService/services/RegUserService?wsdl"));
     }
 
+
 }
